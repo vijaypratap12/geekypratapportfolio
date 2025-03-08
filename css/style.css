@@ -143,9 +143,42 @@ a, a:hover { text-decoration: none; }
 .header-shape.shape-nine { left: 50% !important; transform: translateX(-50%); bottom: 28px !important; top: auto !important; }
 .header-shape.shape-ten {  right: 30px !important; bottom: 10% !important; left: auto !important; top: auto !important; }
 
-.home-text h4 { font-size: 22px; font-weight: 500; padding-bottom: 8px; color: var(--main-color); }
+/* .home-text h4 
+{ 
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500; 
+    padding-bottom: 8px;
+    color: var(--main-color);
+}
 .home-text h1 { font-size: 50px; font-weight: 500; padding-bottom: 8px; color: var(--black900); }
-.home-text p { font-size: 18px; line-height: 28px; color: var(--black900); font-weight: 300; padding-bottom: 30px; }
+.home-text p { font-size: 18px; line-height: 28px; color: var(--black900); font-weight: 300; padding-bottom: 30px; } */
+
+.home-text h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #888;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.home-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #222;
+    line-height: 1.2;
+}
+
+.home-text p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #555;
+    line-height: 28px;
+    padding-bottom: 30px;
+}
 
 .home-img::before {
     position: absolute;
