@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 :root {
-    --main-color: #8a3d8a;
+    --main-color: #0e0d0e;
     --black100: #f7f7f7;
     --black400: #555555;
     --black900: #000000;
@@ -18,10 +18,6 @@ body {
     font-weight: normal;
     overflow-x: hidden;
     background-color: var(--white);
-}
-
-code, pre {
-    font-family: 'Fira Code', monospace;
 }
 
 * { margin: 0; padding: 0; outline: none !important; }
@@ -147,8 +143,8 @@ a, a:hover { text-decoration: none; }
 .header-shape.shape-nine { left: 50% !important; transform: translateX(-50%); bottom: 28px !important; top: auto !important; }
 .header-shape.shape-ten {  right: 30px !important; bottom: 10% !important; left: auto !important; top: auto !important; }
 
-.home-text h4 { font-size: 30px; font-weight: 600; padding-bottom: 8px; color: var(--main-color); }
-.home-text h1 { font-size: 60px; font-weight: 600; padding-bottom: 8px; color: var(--black900); }
+.home-text h4 { font-size: 22px; font-weight: 500; padding-bottom: 8px; color: var(--main-color); }
+.home-text h1 { font-size: 50px; font-weight: 500; padding-bottom: 8px; color: var(--black900); }
 .home-text p { font-size: 18px; line-height: 28px; color: var(--black900); font-weight: 300; padding-bottom: 30px; }
 
 .home-img::before {
@@ -324,7 +320,7 @@ a, a:hover { text-decoration: none; }
         margin: 0 0 15px;
     }
 
-        .service-item:hover p { color: var(--black900); }
+        .service-item:hover p { color: var(--white); }
 
 /*PORTFOLIO*/
 
@@ -451,16 +447,18 @@ a, a:hover { text-decoration: none; }
 .call-action-content p { color: var(--white); padding-bottom: 25px; }
 .call-action-content ul li { display: inline-block; margin: 10px 15px 0;}
 
-/*TESTIMONIALS*/
+/*BLOGS*/
 
-.testimonials { background-color: var(--black100); }
+.blogs { background-color: var(--black100); }
 
 .testimonial-item {
     margin: 15px;
     padding: 30px;
     box-shadow: var(--shadow-black100);
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
+    background-color: black;
+    color: white;
 }
 
     .testimonial-item .img-box {
@@ -489,16 +487,16 @@ a, a:hover { text-decoration: none; }
         }
 
     .testimonial-item p {
-        font-size: 16px;
+        font-size: 14px;
         margin: 0 0 20px;
-        color: var(--black400);
+        color: #E4E4E7;
         line-height: 26px;
         font-weight: 300;
     }
 
     .testimonial-item h3 {
         font-size: 18px;
-        color: var(--black900);
+        color: #E4E4E7;
         font-weight: 500;
         margin: 0 0 5px;
         text-transform: capitalize;
@@ -509,6 +507,12 @@ a, a:hover { text-decoration: none; }
         font-size: 16px;
         color: var(--black400);
         font-weight: 300;
+    }
+    .testimonial-item small {
+        display: block;
+        font: 12.8px Inter, sans-serif;
+        color: #71717A;
+        margin: 0 0 5px;
     }
 
     .testimonial-item .rating { margin-top: 10px; }
